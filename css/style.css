@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+/* !Contenedor en General */
+.header-ms{
+    padding: 1rem;
+    background-color: #1f0d47;
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+/* !Contenedor Para seccion de telefonos */
+.contact-header-ms{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 2rem;
+}
+
+.contact-header-ms a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+/* !Contenedor de la seccion de Media */
+.social-header-ms{
+    display: flex;
+    list-style: none; 
+    gap: 1.3rem;   
+}
+.social-header-ms a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem
+
+}
+
+/* !Navbar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+/* !Seccion del Logo */
+.logo-nav-ms img{
+    max-width: 16rem;
+}
+/* !Seccion de los enlaces */
+.link-nav-ms{
+    
+}
+.link-nav-ms ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 2rem;
+}
+.link-nav-ms ul li a{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+/* !Seccion de hero */
+
+.video-hero-ms video{
+    max-width: 100%;
+}
+/* !Seccion Mapa */
+.map-main-ms{
+    display: grid;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.map-ms iframe{
+    border-radius: 15px 15px 0 0 ;
+}
+
+.search-ms{
+    color: #fff;
+    background-color: #1f0d47;
+    padding: 3rem;
+    font-size: 1.2rem;
+    font-weight: 400;    
+}
+
+.search-button-ms{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-button-ms p{
+    margin-top: 0.5rem;
+    border: solid 0.09rem #ffffff43;
+    padding: 1rem;
+    width: 80%;
+
+}
+.search-button-ms a{
+ text-decoration: none;
+ color: #1f0d47;
+ background-color: #fff;    
+ padding: 0 1.3rem;
+ align-content: center;
+ 
+}
+/* todo:Una logica para ver en ubicaciones las propiedades que se tienen disponibles, suena jodido la verdad */
+
+/* !Secciones de card */
+.container-card-prop{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.propi-ms{
+    padding: 1rem;
+}
+.propi-ms h2{
+    color: #1f0d47;
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+.card{
+    border-radius: 15px 15px 0 0;
+    max-width: 25rem;
+
+}
+.img-card{
+    
+    height: 32.4rem;
+}
+.img-card img{
+    border-radius: 15px 15px 0 0;
+    width: 25rem;
+    height: 32.4rem;
+    object-fit: cover;
+    margin: 0;
+}
+
+.text-card{
+    display: grid;
+    padding: 1rem;
+    border: solid 0.08rem #7f7f7f;
+    align-content: center;
+    justify-items: center;
+}
+.text-card h3{
+    color: #1f0d47;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.text-card p{
+    color: #7f7f7f;
+    text-align: center;
+    padding: 1rem;
+
+}
+.text-card ul{
+ list-style: none;
+ display: grid;
+ grid-template-columns: 1fr 1fr ;
+ justify-items: center;
+
+}
+.text-card ul li{
+    width: 11rem;
+    height: 4rem;
+    color: #969696;
+    text-align: center;
+    align-content: center;
+}
+.text-card a {   
+ text-decoration: none;
+ color: #fff;
+ font-weight: 500; 
+ background-color: #1f0d47;
+ width: 100%;
+ text-align: center;
+ height: 100%;
+ padding: 0.5rem 1rem  ;
+}
